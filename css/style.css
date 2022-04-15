@@ -366,13 +366,11 @@ section.banner{
   z-index: 1; /* Sit on top */
   padding: 10%;
   text-align: center;
-  left: 50%;
-  right: 50%;
-  bottom: 50%;
-  top: 50%;
+  right: 0;
+  bottom: 0;
   backdrop-filter: blur(2px);
   width: 50%; /* Full width */
-  height: 50%; /* Full height */
+  height: 50; /* Full height */
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0, 0, 0, 0.69); /* Black w/ opacity */
   border-radius: 16px;
@@ -394,10 +392,10 @@ section.banner{
 .close {
   color: var(--light);
   position: fixed;
-  bottom: 85%;
-  left: 90%;
+  bottom: 80%;
+  right: 20px;
   font-size: 70px;
-  font-weight: bold;
+  font-weight: 700;
   
 }
 
