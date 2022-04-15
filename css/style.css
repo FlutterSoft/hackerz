@@ -50,7 +50,7 @@ header h1 {
 
 h1 {
   color: var(--light);
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: 900;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -70,7 +70,7 @@ h2 {
 
 h3 {
   color: var(--light);
-  font-size: 1.5rem;
+  font-size: 2.3rem;
   font-weight: 900;
   letter-spacing: 2px;
 }
@@ -116,6 +116,7 @@ nav {
   background-color: var(--dark);
   padding: 16px 32px;
   border-bottom: 3px solid var(--primary);
+  align-items: center;
 }
 
 .menu {
@@ -200,7 +201,7 @@ nav {
   display: block;
   z-index: 98;
   background-color: var(--dark);
-  padding-top: 120px;
+  padding-top: 145px;
   transition: 400ms ease;
 }
 
@@ -227,17 +228,6 @@ nav {
   opacity: 80%;
 }
 
-@media (min-width: 768px){
-  .hamburger{
-    display: none;
-  }
-  .menu{
-    display: flex;
-  }
-  .mobile-nav {
-    display: none;
-  }
-}
 
 
 /******************************************
@@ -354,7 +344,51 @@ section.banner{
   grid-template-columns: repeat(3, 1fr);
 }
 
+.contact {
+  background-color: var(--dark);
+  color: var(--dark);
+}
+.contact h2{
+  margin-top: 0;
+  text-align: center;
+}
 
+.contact .container {
+  display: block;
+  padding: 75px 0;
+  margin: 0 auto;
+}
+.contact form{
+  margin: 0 auto;
+  display: block;
+  max-width: 680px;
+  text-align: center;
+}
+
+.formGrid{
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(2, 1fr);
+
+}
+.formArea{
+  grid-column: span 2;
+  margin-bottom: 16px;
+}
+
+.formElement, .formArea {
+  appearance: none;
+  border: none;
+  outline: none;
+  background: none;
+  display: block;
+  width: 100%;
+  background-color: #FFF;
+  border-radius: 8px;
+  padding: 16px;
+  font-size: 1.1rem;
+  
+}
 /******************************************
 /* MODAL
 /*******************************************/
@@ -392,7 +426,7 @@ section.banner{
 .close {
   color: var(--light);
   position: fixed;
-  bottom: 80%;
+  bottom: 85%;
   right: 20px;
   font-size: 70px;
   font-weight: 700;
@@ -438,6 +472,75 @@ header {
 }
 
 footer {
+
+}
+
+
+
+
+/******************************************
+/* MEDIA QUERIES
+/*******************************************/
+
+
+@media (min-width: 768px){
+  .hamburger{
+    display: none;
+  }
+  .menu{
+    display: flex;
+  }
+  .mobile-nav {
+    display: none;
+  }
+}
+
+@media(max-width: 1024px){
+  .services-grid{
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .projects-grid{
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .menu {
+    max-width: 75%;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px){
+  .services-grid{
+    grid-template-columns: 1fr;
+  }
+  .projects-grid{
+    grid-template-columns: 1fr;
+  }
+  .formGrid{
+    display: grid;
+    gap: 16px;
+    grid-template-columns: 1fr;
+  }
+  .formElement{
+    grid-column: span 2;
+  }
+}
+
+
+@media (min-width: 768px){
+  .hamburger{
+    display: none;
+  }
+  .menu{
+    display: flex;
+  }
+  .mobile-nav {
+    display: none;
+  }
+  
 
 }
 
