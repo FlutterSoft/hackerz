@@ -13,28 +13,105 @@
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,700;0,900;1,400&family=Tinos&display=swap" rel="stylesheet">		
 	</head>
 	<body>
+		<header>
+			<!-- Main Navigation -->
+			<nav>
+				<div class="container">
+					<h1>Hackerz</h1>
+					<div class="menu">
+						<a href="#" class="isActive">Home</a>
+						<a href="#">About</a>
+						<a href="#">Projects</a>
+						<a href="#">Contacts</a>
+					</div>
+					<button class="hamburger">
+						<span></span>
+						<span></span>
+						<span></span>
+					</button>
+				</div>		
+			</nav>
+			<!-- Mobile Navigation -->
+			<nav class="mobile-nav">
+				<a href="#" class="isActive">Home</a>
+				<a href="#">About</a>
+				<a href="#">Projects</a>
+				<a href="#">Contacts</a>
+			</nav>			
+		</header>
 
-		<nav>
-			<div class="container">
-				<h1>Sam Brown</h1>
-				<div class="menu">
-					<a href="#" class="isActive">Home</a>
-					<a href="#">About</a>
-					<a href="#">Projects</a>
-					<a href="#">Contacts</a>
+		<!-- Main Section -->
+		<main>
+			<section class="banner">
+				<div class="container">
+					<div>
+					<h1>
+						We can hack <span>anything.</span> 
+					</h1>
+					<h3>Let us know what you want to hack.</h3>					
+					<a class="button" href="#">Contact</a>
+					</div>
 				</div>
+			</section>
 
-				<button class="hamburger">
-					<span></span>
-					<span></span>
-					<span></span>
-				</button>
-			</div>
+			<section class="services" id="services">
+				<div class="container">
+					<h2>Services</h2>
+					<div class="services-grid">
+						<div class="service">
+							<figure class="img-box">
+								<img src="../images/service-1.jpg" alt="" class="img">
+							</figure>
+							<div class="content">
+								<h3>Computers</h3>
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia asperiores repudiandae inventore expedita praesentium dolorem dolor ex nihil, quia neque?</p>
+							</div>
 
-		</nav>
+						</div>
+
+						<div class="service">
+							<figure class="img-box">
+								<img src="../images/service-2.jpg" alt="" class="img">
+							</figure>
+							<div class="content">
+								<h3>Apps</h3>
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia asperiores repudiandae inventore expedita praesentium dolorem dolor ex nihil, quia neque?</p>
+							</div>
+						</div>
+
+						<div class="service">
+							<figure class="img-box">
+								<img src="../images/service-3.jpg" alt="" class="img">
+							</figure>
+							<div class="content">
+								<h3>Playstations</h3>
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia asperiores repudiandae inventore expedita praesentium dolorem dolor ex nihil, quia neque?</p>
+							</div>
+						</div>
+
+						<div class="service">
+							<figure class="img-box">
+								<img src="../images/service-4.jpg" alt="" class="img">
+							</figure>
+							<div class="content">
+								<h3>Fridges</h3>
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia asperiores repudiandae inventore expedita praesentium dolorem dolor ex nihil, quia neque?</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+
+		</main>
+
+
 
 		<script type="text/javascript" src="js/main.js"></script>
 	</body>
