@@ -67,12 +67,14 @@ h2 {
 .services h2{ 
   color: var(--dark);
 }
-
 h3 {
   color: var(--light);
-  font-size: 2.3rem;
+  font-size: 1.7rem;
   font-weight: 900;
   letter-spacing: 2px;
+}
+.banner h3 {
+  font-size: 2.3rem;
 }
 
 .services h3 {
@@ -81,7 +83,7 @@ h3 {
 
 h1 span{
   color: var(--primary);
-  font-size: 3rem;
+  font-size: 3.4rem;
   font-weight: 900;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -124,6 +126,7 @@ nav {
   flex: 1 1 0%;
   justify-content: flex-end;
   margin: 0 -16px;
+  max-width: 70%;
 }
 
 .menu a{
@@ -464,20 +467,6 @@ section.banner{
   transform: scale(0.90);
 }
 
-
-
-
-header {
-
-}
-
-footer {
-
-}
-
-
-
-
 /******************************************
 /* MEDIA QUERIES
 /*******************************************/
@@ -505,8 +494,8 @@ footer {
   }
 
   .menu {
-    max-width: 75%;
-    justify-content: space-around;
+    /* max-width: 75%;
+    justify-content: space-around; */
     align-items: center;
     text-align: center;
   }

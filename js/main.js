@@ -21,25 +21,7 @@ closeProjectsModal.addEventListener('click', function(){
 console.log(mobileNavs)
 mobileNavs.forEach( link => {
     link.addEventListener('click', function(){
-        console.log('yo')
-
         mobileMenu.classList.toggle('isActive')
     })
 })
 
-
-
-
-// window.addEventListener('click', function(){
-//     if(this.target == projectsModal){{
-//         projectsModal.style.display ='none'
-//     }}
-// })
-
-
-// window.onload = function(){
-//     const mobileMenu = document.querySelector('.mobile-nav')
-
-
-
-// }
