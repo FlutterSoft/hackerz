@@ -3,7 +3,7 @@ Website practise. Includes a services and projects section as well as contact fo
 
 **Link to project:** https://hackerz.netlify.app
 
-![screenshot](blob:https://imgur.com/57121c4d-5b71-4bae-871b-e3494af22972)
+![screenshot](https://i.imgur.com/XzwuzQT.png)
 
 ## How It's Made:
 
