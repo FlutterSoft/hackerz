@@ -11,7 +11,7 @@ hamburger.addEventListener('click', function(){
 })
 
 projectsModalBtn.addEventListener('click', function(){
-    projectsModal.style.display = 'block'
+    projectsModal.style.display = 'flex'
 })
 
 closeProjectsModal.addEventListener('click', function(){
